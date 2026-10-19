@@ -55,3 +55,7 @@ seccion.innerHTML += '<br>' + res2;
     seccion.innerHTML += '<br> Soy una funcion Anonima';
 
 }) ();
+
+(function(a = 3, b = 5){
+seccion.innerHTML += '<br> Suma = ' + (a + b);
+}) ();
